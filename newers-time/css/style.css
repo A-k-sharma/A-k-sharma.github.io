@@ -1,0 +1,161 @@
+body
+{
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: "Google Sans", Roboto, arial, sans-serif;
+}
+.container
+{
+    padding: 20px;
+    border: 10px solid #DDDDDD;
+}
+header
+{
+    border-bottom: 1px solid #DDDDDD;
+}
+header img
+{
+    padding-right: 30px;
+    padding-left: 60px;
+}
+
+.content .post
+{
+    list-style: none;
+    text-align: center;
+}
+
+.content .post .article
+{
+    width: 45%;
+    text-align: justify;
+    padding-right: 30px;
+    display: inline-block;
+}
+h3
+{
+    text-align: left;
+}
+
+#big
+{
+    width: 95%;
+
+}
+/*
+.content .article .mid-img .img-1 li .art-pic-1
+{
+    width: 40%;
+    padding-right: 10px;
+    margin-right: 0px;
+
+}
+#art-pic
+{
+    width: 40%;
+    margin-left: 0px;
+    padding-right: 10px;
+}*/
+.more-blog
+{
+    list-style: none;
+    text-align: center;
+}
+
+.post-s
+{
+    width: 45%;
+    text-align: justify;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+footer h2
+{
+    text-align: center;
+    font-size: 16px;
+
+}
+.fab
+{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.mid-img .img-1 li
+{
+    list-style: none;
+    display: inline-block;
+    padding-left: 0px;
+
+}
+.mid-img .img-2 li
+{
+    list-style: none;
+    display: block;
+    padding-bottom: 20px;
+}
+/*-------------------------------------------------------*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    body
+    {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .container
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .container header img:first-child
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container header img:last-child
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .content .post .article
+    {
+        display: block;
+        width: 100%;
+    }
+    #big
+    {
+        width: 100%;
+    }
+    .mid-img .img-1 li img
+    {
+        display: block;
+        padding-right: 0px;
+    }
+    .mid-img .img-1 .img-2 li img
+    {
+        display: block;
+        width: 100%;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+    .post-s
+    {
+        display: block;
+        width: 100%;
+    }
+    .fab
+    {
+        font-size: 10px;
+        padding-left: 5px;
+        width: 20px;
+
+    }
+
+}
