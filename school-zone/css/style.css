@@ -1,0 +1,208 @@
+body
+{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.nav-bar
+{
+    list-style: none;
+    display: block;
+}
+.first
+{
+    background-color: #DDDDDD;
+    height: 20px;
+    padding: 10px;
+    padding-right: 70px;
+}
+.first::first-letter
+{
+    padding-left: 80px;
+}
+.first a
+{
+    padding-right: 15px;
+    width: 100%;
+    padding-left: 5px;
+    text-decoration: none;
+    color: black;
+}
+.first i
+{
+    float: right;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #65C930;
+}
+.first i:first-child
+{
+    padding-left: 50px;
+}
+.second
+{
+
+    background-color: #65C930;
+    display: inline-block;
+    padding: 15px 0px 15px 80px;
+    width: 93.8%;
+}
+.second a
+{
+    text-decoration: none;
+    color: black;
+    padding-right: 40px;
+}
+
+/*header main*/
+
+
+.header-main {
+    background-color: #fff;
+    padding-top: 14px;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+}
+
+.logo {
+    float: left;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+.header-main-right {
+    float: right;
+    color: #008000;
+}
+
+.phone-email-area{
+    float: left;
+}
+
+.phone-email-area .fa-phone{
+    padding-left: 5px;
+}
+
+.phone-email-text{
+    float: right;
+    width: 200px;
+}
+
+.header-main-right i {
+    margin-right: 5px;
+}
+
+.header-main-right i span {
+    margin-right: 20px;
+}
+
+.header-main-right button {
+    background-color: #fff;
+    border: 2px solid green;
+    padding: 8px;
+    color: #008000;
+    margin-left: 20px;
+}
+
+.header-main-right button a {
+    text-decoration: none;
+    color: #008000;
+}
+/*header main*/
+
+section
+{
+    background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url(../images/abc.jpg) no-repeat center center;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+
+}
+section h1
+{
+    font-size: 45px;
+    margin: auto;
+    color: white;
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    padding-top: 150px;
+    padding-left: 100px;
+
+
+}
+section .mid-text
+{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    padding-top: 15px;
+    float: none;
+    width: 45%;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-bottom: 20px;
+
+
+
+}
+.gs
+{
+    border: 2px solid white;
+    background-color: transparent;
+    height: 50px;
+    font-weight: bold;
+    margin-left: 100px;
+    color: white;
+}
+.gs:hover
+{
+    background-color: #65C930;
+}
+.cards
+{
+    margin-top: 100px;
+    margin-left: 150px;
+    box-sizing: border-box;
+}
+.cards li
+{
+    display: inline-block;
+    width: 220px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+}
+.cards li .fas
+{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.card-1
+{
+    background-color: #8B6BFF;
+
+}
+.card-2
+{
+    background-color: #FF5C5E;
+}
+.card-3
+{
+    background-color: #A7E866;
+}
+.card-4
+{
+    background-color: #FD7E26;
+}
+.cards p
+{
+    text-align: justify;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
