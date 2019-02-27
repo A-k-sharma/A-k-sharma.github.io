@@ -1,0 +1,255 @@
+body
+{
+
+    font-family: "Roboto";
+}
+header
+{
+    background: url("../images/header-bg.jpg");
+    box-sizing: border-box;
+}
+
+.lan
+{
+    background-color: transparent;
+    height: 25px;
+    border: none;
+    border-left: 1px solid #ffffff;
+    display: inline-block;
+    position: relative;
+    left: 15px;
+    top: -25px;
+
+}
+nav
+{
+    display: inline;
+    float: right;
+}
+
+.nav-bar
+{
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    position: relative;
+    float: left;
+    height: 30px;
+}
+.nav-bar li
+{
+    position: relative;
+    float: left;
+    height: 30px;
+    width: 150px;
+}
+.nav-bar li:hover { background: #F25E00; }
+
+.nav-bar li:hover > ul
+{
+display: inline;
+}
+.second-menu
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    background-color: #F25E00;
+}
+.second-menu li
+{
+    position: relative;
+    height: 30px;
+}
+.second-menu li:hover
+{
+    color: #F25E00;
+}
+
+.second-menu li a
+{
+    color:black;
+    text-decoration: none;
+}
+.third-menu
+{
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    background-color: #F25E00;
+}
+.third-menu li
+{
+    position: relative;
+    height: 30px;
+}
+.third-menu li:hover
+{
+    color: #F25E00;
+}
+
+.third-menu li a
+{
+    color:black;
+    text-decoration: none;
+}
+.mid
+{
+    background: url("../images/banner-bg.jpg") no-repeat center;
+    background-size: cover;
+    color: white;
+}
+.nav-bar a
+{
+
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 0 0 10px;
+    display: block;
+    line-height: 30px;
+    font-family: "Roboto";
+}
+.nav-bar a:hover
+{
+    color: #000000;
+}
+.user
+{
+    right: 10px;
+    position: relative;
+
+}
+.mid
+{
+    height: 500px;
+}
+.mid h1
+{
+    font-size: 60px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 900;
+    box-shadow: 2.65px 4.24px 9px rgba(92,33,4,0.2);
+    text-align: center;
+    margin-top: 150px;
+}
+.mid h3
+{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    text-align: center;
+    padding: 15px;
+}
+.bttn
+{
+    text-align: center;
+    padding: 15px;
+}
+.btn
+{
+    width: 178px;
+    height: 48px;
+    border-radius: 24px;
+    box-shadow: 0px 10px 26px rgba(241,87,17,0.5);
+    background-image: linear-gradient(90deg, #eb6519 0%, #f93f03 100%);
+    border: none;
+}
+
+.mid-2
+{
+    font-size: 40px;
+    color: #3e4754;
+    font-family: "Roboto";
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.mid-2 h2
+{
+    font-size: 40px;
+    color: #3e4754;
+    font-family: "Roboto";
+    font-weight: 900;
+    text-align: center;
+    padding: 15px;
+}
+.middle
+{
+    width: 1080px;
+    height: 450px;
+    border-radius: 8px;
+    box-shadow: 0 0 43px rgba(143,143,143,0.24);
+    background-color: #ffffff;
+}
+.left
+{
+    display: inline;
+    float: left;
+    position: relative;
+
+}
+.rectangle
+{
+    height: 80px;
+    width: 260px;
+    background-color: white;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+    font-size: 25px;
+    padding: 10px;
+    padding-left: 20px;
+}
+#play
+{
+    position: absolute;
+    bottom: 22%;
+    left: 40%;
+    font-size: 65px;
+    color: yellow;
+
+}
+.right img
+{
+    display: block;
+}
+.right
+{
+    width: 33%;
+    padding-top: 10px;
+    float: right;
+    display: inline;
+}
+.next,.now,.pre
+{
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.next,.pre
+{
+
+    opacity: 0.7;
+}
+.right p
+{
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    bottom: 50px;
+}
+@import "https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css";
