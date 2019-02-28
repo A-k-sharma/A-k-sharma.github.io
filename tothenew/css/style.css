@@ -1,0 +1,224 @@
+.nav-bar{
+    display: block;
+    width: 100%;
+    padding-right: 30px;
+    padding: 10px;
+    color: black;
+}
+.nav-bar a{
+    color: black;
+    text-decoration: none;
+}
+.nav-bar li{
+    display: inline;
+    padding: 5px;
+}
+.upper{
+    text-align: right;
+    background-image: linear-gradient(to right, lightgrey, white);;
+}
+.secondary-header-left,.secondary-header-right{
+    width:50%;
+    float: left;
+    padding: 10px;
+}
+.secondary-header-right{
+    height: 73px;
+    padding-top: 30px;
+    text-align: right;
+}
+.secondary-header-right li{
+    padding: 10px;
+    font-size: 20px;
+}
+.secondary-header-right li:hover{
+    border-bottom: 2px solid #ff8e0c;
+}
+
+/*-----------------------------------------------------------*/
+
+section{
+    background: url("../images/banner.jpg");
+}
+section .head{
+    font-size: 35px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+strong
+{
+    font-weight: bold;
+}
+
+.icon
+{
+    font-size: 30px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.tec-stack{
+    width: 75%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.tec-stack li{
+    display: inline-block;
+    border-right: 2px solid;
+    width: 22%;
+    text-align: center;
+    height:60px;
+}
+.tec-stack li:last-child{
+    border-right: none;
+}
+.tec-stack li h4{
+    font-size: 25px;
+    font-weight: bold;
+}
+hr
+{
+    background-color: #ff8e0c;
+    border-radius: 50%;
+}
+/*---------------------------------------------------*/
+
+.card{
+    display: inline-block;
+    border-right: 1px solid grey;
+    padding: 20px;
+    width: 19%;
+    text-align: center;
+}
+.card:last-child{
+    border-right: none;
+}
+.card h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ff8e0c;
+}
+/*---------------------------------------------------------*/
+footer{
+    background-color: black;
+}
+footer>h2 {
+    padding-top: 50px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.left {
+    float: left;
+    width: 8%;
+    border-radius: 10px;
+    color: white;
+    height: 200px;
+    background-color: #5A5E61;
+    margin-left: 50px;
+    margin-top: 90px;
+    margin-right: 50px;
+}
+.left h4 {
+    font-size: 30px;
+    color: orange;
+    text-align: center;
+    padding: 5px;
+}
+.map {
+    width: 50%;
+    margin: auto;
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 50px;
+    position: relative;
+}
+.left p, .right p {
+    text-align: center;
+    color: white;
+}
+.right {
+    float: right;
+    width: 15%;
+    margin-right: 50px;
+    margin-top: 90px;
+    border-radius: 10px;
+    color: white;
+    height: 80px;
+    background-color: #5A5E61;
+    position: relative;
+}
+.right p {
+    margin-top: 15px;
+}
+.orange,.purple{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    border-radius: 50%;
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: purple;
+}
+.dot1{
+    top: 125px;
+    left: 170px;
+}
+.dot2{
+    top: 260px;
+    left: 200px;
+}
+.dot3{
+    top: 150px;
+    left: 440px;
+}
+.dot4{
+    top: 270px;
+    left: 440px;
+}
+.dot5{
+    top: 145px;
+    left: 360px;
+}
+.dot6{
+    top: 100px;
+    left: 150px;
+}
+.dot7{
+    top: 300px;
+    left: 415px;
+}
+.dot8{
+    top: 200px;
+    left: 550px;
+}
+.dot9{
+    bottom:  52px;
+    left: 25px;
+}
+.dot10{
+    bottom: 22px;
+    left: 25px;
+}
+.dot11{
+    top: 190px;
+    left: 545px;
+}
+.dot12{
+    top: 250px;
+    left: 635px;
+}
+.dot13{
+    top: 200px;
+    left: 485px;
+}
+.dot14{
+    top: 205px;
+    left: 540px;
+}
